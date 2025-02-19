@@ -68,6 +68,18 @@ a:hover {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.2rem; /* Reduce size */
+  }
+  
+  .hero h2 {
+    font-size: 0.7rem;
+  }
+}
+
+
+
 /* Navigation */
 nav {
   background-color: #8B0000; /* Deep red for navigation */
