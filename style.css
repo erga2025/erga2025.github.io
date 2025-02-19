@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #3E3E3E; /* Dark gray for text */
+  background-color: #F5F5F5; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #FFFFFF; /* Warm brown for headings */
+}
+
+
+h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #5C4033; /* Warm brown for headings */
+}
+
+a {
+  color: #8B0000; /* Deep red for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A0522D; /* Sienna brown for hover effect */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden; /* Crop the image */
+  height: 70vh; /* Responsive height based on viewport */
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Center crop the image */
+  object-position: top; /* Focus on the central horizontal part */
+}
+
+
+/* Container to wrap both h1 and h2 */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Decreased font sizes */
+.hero h1 {
+  font-size: 3rem; /* Adjusted size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin: 0; /* Remove extra space */
+}
+
+.hero h2 {
+  font-size: 1.5rem; /* Smaller than h1 */
+  margin: 0.5rem 0 0; /* Space below h1 */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Navigation */
+nav {
+  background-color: #8B0000; /* Deep red for navigation */
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700; /* Gold for hover effect */
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #A0522D; /* Sienna brown for section headings */
+  border-bottom: 2px solid #8B0000; /* Deep red underline */
+  padding-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #5C4033; /* Warm brown for footer */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #FFD
