@@ -37,34 +37,32 @@ a:hover {
   height: 70vh; /* Responsive height based on viewport */
 }
 
-.hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Center crop the image */
-  object-position: top; /* Focus on the central horizontal part */
-}
-
-
-/* Container to wrap both h1 and h2 */
 .hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.hero-logo {
+  width: 240px; /* Adjust size as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 10px; /* Adds space between the logo and h1 */
+}
 
-/* Decreased font sizes */
 .hero h1 {
-  font-size: 3rem; /* Adjusted size */
+  font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  margin: 0; /* Remove extra space */
+  margin: 0;
 }
 
 .hero h2 {
-  font-size: 1.5rem; /* Smaller than h1 */
-  margin: 0.5rem 0 0; /* Space below h1 */
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -129,3 +127,4 @@ footer {
 
 footer a {
   color: #FFD
+  }
