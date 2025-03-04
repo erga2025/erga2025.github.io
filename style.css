@@ -35,7 +35,7 @@ a:hover {
   color: white;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   overflow: hidden; /* Crop the image */
-  height: 70vh; /* Responsive height based on viewport */
+  height: 50vh; /* Responsive height based on viewport */
 }
 
 .hero-text {
@@ -68,11 +68,16 @@ a:hover {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-.hero h2 a {
-    color: white;         /* Make the text color white */
+h3 a {
     text-decoration: underline; /* Add underline */
     text-decoration-color: white; /* Make the underline white */
 }
+
+#adbis {
+  text-align: center;
+}
+
+
 
 
 @media (max-width: 768px) {
