@@ -33,6 +33,7 @@ a:hover {
   position: relative;
   text-align: center;
   color: white;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   overflow: hidden; /* Crop the image */
   height: 70vh; /* Responsive height based on viewport */
 }
@@ -49,9 +50,10 @@ a:hover {
 }
 
 .hero-logo {
+  display: block;
   width: 240px; /* Adjust size as needed */
   height: auto; /* Keeps aspect ratio */
-  margin-bottom: 10px; /* Adds space between the logo and h1 */
+  margin: 0 auto 0; /* Center horizontally & add space below */
 }
 
 .hero h1 {
@@ -65,6 +67,13 @@ a:hover {
   margin: 0.5rem 0 0;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
+
+.hero h2 a {
+    color: white;         /* Make the text color white */
+    text-decoration: underline; /* Add underline */
+    text-decoration-color: white; /* Make the underline white */
+}
+
 
 @media (max-width: 768px) {
   .hero h1 {
