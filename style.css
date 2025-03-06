@@ -6,6 +6,8 @@ body {
   background-color: #F5F5F5; /* Light gray background */
   margin: 0;
   padding: 0;
+    margin-top: -20vh; /* Matches the cropped area */
+
 }
 
 h1, h2 {
@@ -35,12 +37,18 @@ a:hover {
   color: white;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   overflow: hidden; /* Crop the image */
-  height: 50vh; /* Responsive height based on viewport */
+  height: 70vh; /* Responsive height based on viewport */
+}
+
+.hero img{
+  clip-path: inset(5% 0 0 0); /* Adjust as needed */
+  width: 100%;
+
 }
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -49,9 +57,8 @@ a:hover {
   align-items: center;
 }
 
-.hero-logo {
-  display: block;
-  width: 240px; /* Adjust size as needed */
+.logo {
+  width: 180px; /* Adjust size as needed */
   height: auto; /* Keeps aspect ratio */
   margin: 0 auto 0; /* Center horizontally & add space below */
 }
