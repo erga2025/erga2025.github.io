@@ -6,8 +6,6 @@ body {
   background-color: #F5F5F5; /* Light gray background */
   margin: 0;
   padding: 0;
-    margin-top: -20vh; /* Matches the cropped area */
-
 }
 
 h1, h2 {
@@ -42,6 +40,8 @@ a:hover {
 
 .hero img{
   clip-path: inset(5% 0 0 0); /* Adjust as needed */
+ transform: translateY(-5%);
+
   width: 100%;
 
 }
