@@ -35,20 +35,18 @@ a:hover {
   color: white;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   overflow: hidden; /* Crop the image */
-  height: 70vh; /* Responsive height based on viewport */
+  height: 55vh; /* Responsive height based on viewport */
 }
 
 .hero img{
-  clip-path: inset(5% 0 0 0); /* Adjust as needed */
- transform: translateY(-5%);
-
-  width: 100%;
-
+    clip-path: inset(10% 0 0 0); /* Adjust as needed */
+    transform: translateY(-10%);
+    width: 100%;    
 }
 
 .hero-text {
   position: absolute;
-  top: 65%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
